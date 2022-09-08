@@ -1,6 +1,6 @@
 {
   "name": "common-ui-template",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "common ui library",
   "author": "Kolyago Sergei <slelllq@gmail.com> (https://github.com/SleLLl)",
   "license": "ISC",
@@ -62,5 +62,9 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@radix-ui/react-checkbox": "^1.0.0",
+    "@radix-ui/react-icons": "^1.1.1"
+  }
 }
